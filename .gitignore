@@ -1,0 +1,30 @@
+# Build files
+build/
+*.o
+*.exe
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# Data files
+data/raw/
+data/processed/
+data/results/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# CUDA
+*.ptx
+*.cubin
+
+# System
+.DS_Store
+Thumbs.db
+uv.lock

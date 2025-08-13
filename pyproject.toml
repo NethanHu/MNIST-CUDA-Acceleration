@@ -1,0 +1,13 @@
+[project]
+name = "cuda-mnist"
+version = "0.1.0"
+description = "CUDA MNIST项目"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "requests",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
